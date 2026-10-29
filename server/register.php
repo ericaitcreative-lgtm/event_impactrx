@@ -353,7 +353,7 @@ if ($has_signature && file_exists($sig_file_path)) {
     $pdf->SetY(265);
     $pdf->SetFont($fontMain, '', 9);
     $pdf->SetTextColor(100);
-    $pdf->Cell(0, 4, '225A Sunrise Hwy Lynbrook, NY 11563     TOLL FREE 888-700-9896     FAX 1-800-498-9028     INFO@CORERXRETURNS.COM', 0, 0, 'C');
+    $pdf->Cell(0, 4, '225A Sunrise Hwy Lynbrook, NY 11563     TOLL FREE 888-700-9896     FAX 1-800-498-9028     INFO@impactrxreverse.com', 0, 0, 'C');
 
     $pdf->Output('F', $pdf_path);
 } catch (Exception $e) {

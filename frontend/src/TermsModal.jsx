@@ -191,8 +191,8 @@ const TermsModal = ({ isOpen, onClose, onAccept, isAccepted }) => {
                 Lynbrook, NY 11563<br /><br />
                 <strong>Toll Free:</strong> 888-700-9896<br />
                 <strong>Fax:</strong> 1-800-498-9028<br />
-                <strong>Email:</strong> info@corerxreturns.com<br />
-                <strong>Website:</strong> corerxreturns.com
+                <strong>Email:</strong> info@impactrxreverse.com<br />
+                <strong>Website:</strong> impactrxreverse.com
               </div>
 
               <h2>12. Entire Agreement</h2>

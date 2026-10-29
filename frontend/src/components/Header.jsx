@@ -9,7 +9,7 @@ const Header = ({ scrolled, isMenuOpen, setIsMenuOpen }) => {
         <div className="container">
           <div className="contact-info">
             <span>📞 888-700-9896</span>
-            <span>✉️ info@corerxreturns.com</span>
+            <span>✉️ info@impactrxreverse.com</span>
           </div>
           <div className="social-links">
             <span>Linked <b>in</b></span>

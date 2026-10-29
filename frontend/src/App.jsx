@@ -124,7 +124,7 @@ const handleSubmit = async (e) => {
   try {
     const data = new FormData();
     Object.keys(formData).forEach(key => data.append(key, formData[key]));
-    await axios.post("https://corerxregistration.impactprotech.host/api/register.php", data);
+    await axios.post("https://signup.impactrxreturns.com/api/register.php", data);
   } catch (error) {
     console.error("Registration background error:", error);
   } finally {
@@ -145,22 +145,22 @@ const handleSubmit = async (e) => {
 
       <nav className={`main-nav ${scrolled ? "scrolled" : ""}`}>
         <div className="container">
-          <a href="https://corerxreturns.com/" className="logo">
+          <a href="https://impactrxreverse.com/" className="logo">
           <img src="/logo.jpg" alt="ImpactRx Reverse" className="logo-img" />
             <div className="logo-text"><span className="brand-name">ImpactRx</span><span className="brand-sub">Reverse</span></div>
           </a>
           <button className="mobile-menu-btn" onClick={() => setIsMenuOpen(!isMenuOpen)}><Icons.Menu /></button>
           <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
-            <li onClick={() => window.location.href="https://corerxreturns.com/"}>Home</li>
-            <li onClick={() => window.location.href="https://corerxreturns.com/about-us"}>About Us</li>
-                       <li onClick={() => window.location.href ="https://corerxreturns.com/services"}>Services
+            <li onClick={() => window.location.href="https://impactrxreverse.com/"}>Home</li>
+            <li onClick={() => window.location.href="https://impactrxreverse.com/about-2"}>About Us</li>
+                       <li onClick={() => window.location.href ="https://impactrxreverse.com/in-store-mail-in-processing"}>Services
             </li>
-            <li onClick={() =>window.location.href ="https://corerxreturns.com/contact-us"}>
+            <li onClick={() =>window.location.href ="https://impactrxreverse.com/contact"}>
               Contact Us
             </li>
                         <li
               className="login-btn"
-              onClick={() => window.location.href ="https://medrxlinkconnect.com/"}
+              onClick={() => window.location.href ="https://impactrxreturns.com/"}
             >
               Login →
             </li>
